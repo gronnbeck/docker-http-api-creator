@@ -47,7 +47,8 @@ CMD []
 Running the following command
 
 ```sh
-$ curl -k -u user:pass -XPOST \ https://<host>:2375/build\?remote\=https://gist.githubusercontent.com/gronnbeck/541ece530754413929f8/raw/8f9c40fbaf5794200ec9a5873378ad107dff5cbf/Docker
+$ curl -k -u user:pass -XPOST \
+https://<host>:2375/build\?remote\=https://gist.githubusercontent.com/gronnbeck/541ece530754413929f8/raw/8f9c40fbaf5794200ec9a5873378ad107dff5cbf/Docker
 
 # <A stream of data impossible for the human to process>
 
